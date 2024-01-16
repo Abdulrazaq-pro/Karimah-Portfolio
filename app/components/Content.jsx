@@ -53,7 +53,7 @@ const Content = () => {
       width: "500",
       playerVars: {
         autoplay: 1,
-        origin: window.location.origin,
+        // origin: window.location.origin,
       },
     };
     return (
