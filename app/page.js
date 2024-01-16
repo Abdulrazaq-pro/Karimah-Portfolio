@@ -5,7 +5,7 @@ import Content from "./components/Content";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import { useState } from "react";
-import { motion, useScroll } from "framer-motion";
+// import { motion, useScroll } from "framer-motion";
 
 export default function Home() {
   const [chat, setChat] = useState(false);
