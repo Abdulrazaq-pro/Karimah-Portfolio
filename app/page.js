@@ -10,7 +10,7 @@ import { useState } from "react";
 export default function Home() {
   const [chat, setChat] = useState(false);
   const [nav, setNav] = useState(false);
-  const { scrollYProgress } = useScroll();
+  // const { scrollYProgress } = useScroll();
 
   console.log(chat);
 
