@@ -5,7 +5,7 @@ import Content from "./components/Content";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import { useState } from "react";
-import { motion, useScroll } from "framer-motion"
+import { motion, useScroll } from "framer-motion";
 
 export default function Home() {
   const [chat, setChat] = useState(false);
@@ -15,15 +15,13 @@ export default function Home() {
   console.log(chat);
 
   return (
-    <motion.main style={{ scaleX: scrollYProgress }}
-      className="h-screen flex flex-col overflow-y-auto overflow-x-hidden relative "
-    >
+    <main className="h-screen flex flex-col overflow-y-auto overflow-x-hidden relative ">
       <Header chat={chat} setChat={setChat} nav={nav} setNav={setNav} />
       {/* <div className=""> */}
       <Hero nav={nav} setNav={setNav} />
       <Content nav={nav} setNav={setNav} />
       <Footer nav={nav} setNav={setNav} />
       {/* </div> */}
-    </motion.main>
+    </main>
   );
 }
