@@ -17,9 +17,9 @@ const Content = () => {
         className="element md:grid md:grid-cols-2 flex flex-col items-center justify-center space-y-9 border-y-[1px] py-8 border-neutral-200"
       >
         <div className="flex flex-col justify-center w-[90%] m-auto space-y-3">
-          <p className="md:text-4xl text-2xl ">
+          <div className="md:text-4xl text-2xl ">
             <p className="why">Why hire me?</p>
-          </p>
+          </div>
           <p className="text-neutral-600">
             My proficiency in leveraging data analytics to optimize marketing
             strategies, combined with a track record of successful campaign
@@ -52,7 +52,7 @@ const Content = () => {
       height: "300",
       width: "500",
       playerVars: {
-        autoplay: 0,
+        autoplay:1,
       },
     };
     return (

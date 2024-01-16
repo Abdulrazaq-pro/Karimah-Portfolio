@@ -20,12 +20,12 @@ const Testimonial = () => {
       <div className=" max-sm:text-left w-[60%] max-sm:w-[90%] m-auto">
         <div className="flex justify-center">
           <h2 className="text-xl text-center font-semibold ">
-            <p className=" text-sm flex justify-center mb-2 ">
+            <div className=" text-sm flex justify-center mb-2 ">
               <p className="tes bg-gradient-to-b from-[#29100af5] to-sec bg-clip-text text-transparent">
-                {" "}
+               
                 Testimonial
               </p>
-            </p>
+            </div>
             <p className="mb-2">
               SEE WHAT <span className="text-[#741b04f5]">OTHER CLIENTS </span>
               HAS TO SAY

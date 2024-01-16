@@ -21,7 +21,6 @@ const Hero = ({ nav, setNav }) => {
               className=" "
             >
               <button className="rounded-full px-4 py-2 border-none border-2 text-white bg-gradient-to-br from-sec to-primary hover:text-primary hover:border-2 hover:border-primary hover:font-bold text-primary hover:from-[#e0c3bbf5] hover:to-[#e0c3bbf5]">
-              
                 Book a call
               </button>
             </Link>
@@ -49,7 +48,6 @@ const Hero = ({ nav, setNav }) => {
               src="/images/icons/gmail2.png"
               height={20}
               width={20}
-              
               // fill={true}
               layout="responsive"
               // objectFit="cover"
@@ -57,6 +55,8 @@ const Hero = ({ nav, setNav }) => {
               objectFit="cover"
             />
           </Link>
+          {/* <div className="border-r-2 bg-black"></div> */}
+
           <Link
             href="http://www.linkedin.com/in/lawal-karimah"
             className="w-[30px]"
