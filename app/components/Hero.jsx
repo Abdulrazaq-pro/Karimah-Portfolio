@@ -42,7 +42,7 @@ const Hero = ({ nav, setNav }) => {
             </Link>
           </div>
         </div>
-        <div className="px-4 socials flex md:justify-center gap-5 items-center ml-3">
+        <div className="px-4 socials flex md:justify-center gap-3 items-center ml-3">
           <Link href="mailto:lawalkhareemah21@gmail.com" className="w-[30px]">
             <Image
               src="/images/icons/gmail2.png"
