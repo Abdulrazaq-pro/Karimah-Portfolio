@@ -55,7 +55,7 @@ const Hero = ({ nav, setNav }) => {
               objectFit="cover"
             />
           </Link>
-          {/* <div className="border-r-2 bg-black"></div> */}
+          <div className="h-1 w-1 bg-black"></div>
 
           <Link
             href="http://www.linkedin.com/in/lawal-karimah"
@@ -72,6 +72,8 @@ const Hero = ({ nav, setNav }) => {
               objectFit="cover"
             />
           </Link>
+          <div className="h-1 w-1 bg-black"></div>
+
           <Link
             href="http://www.instagram.com/karimah_lawal"
             className="w-[30px]"
