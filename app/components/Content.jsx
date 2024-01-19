@@ -230,7 +230,7 @@ const Content = () => {
           <div className=" m-auto border-1 flex flex-col items-center  py-4 rounded-2xl transition-all ease-in-out ">
             <div className="flex flex-col text-center w-full mb-2 md:mb-6">
               <div className="flex justify-center">
-                <h1 className="md:text-3xl text-xl font-medium title-font text-gray-900 ser">
+                <h1 className="md:text-3xl max-sm:w-[80%] text-xl font-medium title-font text-gray-900 ser">
                   Offer On LinkedIn Brand Management
                 </h1>
               </div>

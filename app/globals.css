@@ -77,7 +77,7 @@ form div textarea {
 }
 .ser:before{
   content: '';
-  width: 7px;
+  width: 12px;
   height: 3px;
   position: absolute;
   background: #bb2c08f5;
@@ -88,7 +88,7 @@ form div textarea {
 }
 .ser:after{
   content: '';
-  width: 7px;
+  width: 12px;
   height: 3px;
   position: absolute;
   background: #bb2c08f5;
