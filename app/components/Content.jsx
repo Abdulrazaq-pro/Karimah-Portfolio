@@ -342,7 +342,7 @@ const Content = () => {
   const Book = () => {
     return (
       <div className="flex flex-col items-center px-6">
-        <div className="text-xl  bg-gradient-to-br bg-clip-text text-transparent  from-[black] via-[#9c0c0c] to-[black]">
+        <div className="text-xl  bg-gradient-to-br bg-clip-text text-transparent  from-[black] via-[#9c0c0c] to-[black] font-semibold">
           Content Marketing Srategies for brand and business owners
         </div>
         <div className="pl-3 pr-9 mt-3">
