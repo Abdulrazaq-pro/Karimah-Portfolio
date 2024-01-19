@@ -231,7 +231,7 @@ const Content = () => {
             <div className="flex flex-col text-center w-full mb-2 md:mb-6">
               <div className="flex justify-center">
                 <h1 className="md:text-3xl text-xl font-medium title-font text-gray-900 ser">
-                  Services We Offer
+                  Offer On LinkedIn Brand Management
                 </h1>
               </div>
             </div>
@@ -332,6 +332,34 @@ const Content = () => {
                 </div>
               </div>
             </div>
+            {/* <div className="mt-4 px-4 py-2 rounded-full bg-third max-sm:w-[80%] m-auto max-sm:text-[12px]">Content Marketing Srategies for brand and business owners</div> */}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const Book = () => {
+    return (
+      <div className="flex flex-col items-center px-6">
+        <div className="text-xl">
+          Content Marketing Srategies for brand and business owners
+        </div>
+        <div className="pl-3 pr-9 mt-3">
+          I can help you create a content/marketing strategy that will boost
+          your brand awareness, engagement, and conversion. A content/marketing
+          strategy is a plan that guide you on what type of content to create,
+          how to distribute it , and how to measure its success. It helps you
+          connect with the target audience, showcase your value proposition, and
+          achieve your business goals. <br />
+          Schedule a call with me today and let&lsquo;s make your business
+          bloom!
+          <div className="">
+            <Link href="https://calendly.com/karimahclaritysession/30min">
+              <button className="mt-4 px-4 py-2 rounded-full bg-third  m-auto max-sm:text-[12px]">
+                Book a call
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -440,6 +468,7 @@ const Content = () => {
       <Me />
       <Youtube />
       <Pricings />
+      <Book />
       <Check />
       <Testimonial />
       <FAQs />

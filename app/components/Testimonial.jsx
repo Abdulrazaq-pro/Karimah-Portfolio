@@ -22,7 +22,6 @@ const Testimonial = () => {
           <h2 className="text-xl text-center font-semibold ">
             <div className=" text-sm flex justify-center mb-2 ">
               <p className="tes bg-gradient-to-b from-[#29100af5] to-sec bg-clip-text text-transparent">
-               
                 Testimonial
               </p>
             </div>
@@ -155,6 +154,33 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
+          {/* <div className="">
+            <div className="flex justify-center">
+              <Image
+                className="rounded-full"
+                src="/images/3.jpg"
+                height={55}
+                width={55}
+                alt=""
+              />
+            </div>
+            <p className="my-2 text-neutral-600">
+              What sets her apart is not just her talent but her dedication to
+              our project. She invested time in understanding Our industry,
+              Competitors, and Target audience. Her meticulous approach ensured
+              that our branding was not only visaully appealing but also
+              strategically sound.
+            </p>
+            <div className="flex justify-end text-left mt-2 mr-3">
+              <div>
+                <p>Adebayo B.</p>
+                <p className="text-xs italic">Process Engineering Designer</p>
+                <div className="text-[#bb2c08f5]">
+                  &#9733; &#9733; &#9733; &#9733; &#9733;
+                </div>
+              </div>
+            </div>
+          </div> */}
           <div>
             <div className="flex justify-center">
               <Image
