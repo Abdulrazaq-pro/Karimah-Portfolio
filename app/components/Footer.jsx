@@ -13,6 +13,8 @@ const Footer = () => {
             Karimah&lsquo;s <br />
             Portfolio
           </p>
+          
+
         </div>
         <div className="space-y-1">
           <p className="text-white">Down-Line</p>

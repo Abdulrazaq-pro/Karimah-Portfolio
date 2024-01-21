@@ -15,6 +15,9 @@ const Header = ({
   nav,
   setNav,
 }) => {
+  function copyText(entryText) {
+    navigator.clipboard.writeText(entryText);
+  }
   return (
     <div className="px-4 py-4 flex justify-between items-center navbar top-0 left-0  shadow-sm ">
       <div>
@@ -24,6 +27,7 @@ const Header = ({
             Rimah
           </span>
         </a>
+        <button onClick={() => copyText("i jbvhb")}>copy</button>
         <div className="flex items-center gap-1 -mt-1">
           <div className="h-[6px] w-8 bg-primary"></div>
           <p className="text-[7px]">portfolio</p>
@@ -37,7 +41,8 @@ const Header = ({
           >
             <Link
               className="flex gap-1"
-              href="https://drive.google.com/drive/folders/1SyHwaFmci-d9qmrkYjKrvILh6KHsQb3g"
+              href="portfolio"
+              // href="https://drive.google.com/drive/folders/1SyHwaFmci-d9qmrkYjKrvILh6KHsQb3g"
             >
               <Image
                 width={15}
@@ -145,8 +150,8 @@ const Header = ({
         </div>
         <div
           className={`fixed w-[65%] left-0 top-0 py-10 px-5 text-lg h-full z-[900] 
-        ${nav ? "translate-x-[0%]" : "translate-x-[-150%]"} 
-        ease-in-out transition text-[#3d3d3d] bg-gradient-to-tr pt-20 bg-[white] shadow-2xl text-center `}
+          ${nav ? "translate-x-[0%]" : "translate-x-[-150%]"} 
+         ease-in-out transition text-[#3d3d3d] bg-gradient-to-tr pt-20 bg-[white] shadow-2xl text-center `}
         >
           <ul className=" space-y-3 navigation">
             <li

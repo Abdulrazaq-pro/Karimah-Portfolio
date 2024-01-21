@@ -9,6 +9,9 @@
 main{
   font-family: 'poppins';
 }
+.portfolio{
+  font-family: 'poppins';
+}
 .opener {
   max-height: 400px !important;
 }
@@ -118,4 +121,10 @@ form div textarea {
   background: #d46c51f5;
   bottom: -3px;
   left: 0px;
+}
+.col-4{
+  grid-column: span 4;
+}
+.col-8{
+  grid-column: span 8;
 }
