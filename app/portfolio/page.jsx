@@ -59,12 +59,12 @@ const page = () => {
               />
             </div>
           </Link>
-          <div className="md:space-y-2 md:col-span-1 col-span-2">
-            <Link href={linker} className="text-lg md:text-3xl leading-6">
+          <div className="md:space-y-5 md:col-span-1 col-span-2">
+            <Link href={linker} className="md:text-3xl leading-6">
               <div className="">{header}</div>
             </Link>
             <button
-              className="px-4 py-2 text-sm rounded-full bg-neutral-100"
+              className="mt-3 px-4 py-2 text-sm rounded-full bg-neutral-100"
               onClick={() => copyText(linker)}
             >
               copy link

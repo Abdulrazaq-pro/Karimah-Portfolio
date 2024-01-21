@@ -160,7 +160,7 @@ const Header = ({
             >
               <Link
                 className="flex gap-1"
-                href="https://drive.google.com/drive/folders/1SyHwaFmci-d9qmrkYjKrvILh6KHsQb3g"
+                href="portfolio"
               >
                 <Image
                   width={15}
