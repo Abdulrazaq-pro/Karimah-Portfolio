@@ -41,7 +41,6 @@ const Header = ({
             <Link
               className="flex gap-1"
               href="portfolio"
-              // href="https://drive.google.com/drive/folders/1SyHwaFmci-d9qmrkYjKrvILh6KHsQb3g"
             >
               <Image
                 width={15}
@@ -56,8 +55,6 @@ const Header = ({
 
           <li
             onClick={navChange2}
-            // console.log('working');
-
             className={`relative   ${select === "about" && "select"}`}
           >
             <Link
@@ -113,22 +110,7 @@ const Header = ({
           </div>
         </div>
         <div className={`flex gap-2`}>
-          {/* <div
-            className={`${
-              nav && "opacity-50"
-            } bg-neutral-100 gap-[2px] rounded-full px-4 py-2 flex items-center cursor-pointer`}
-            onClick={() => {
-              setChat(true);
-            }}
-          >
-            <Image
-              width={16}
-              height={16}
-              src="/images/icons/Telegram copy.svg"
-              alt=""
-            />
-            <p className="text-sm">Send Mail</p>
-          </div> */}
+     
 
           <Link className={`bg-neutral-100 rounded-full px-4 py-2 flex gap-1 ${nav && "opacity-50"}`} href="portfolio">
             <Image
@@ -177,27 +159,6 @@ const Header = ({
               onClick={navChange1}
               className={`relative ${select === "home" && "select"}`}
             >
-              {/* <Link
-                className="flex gap-1"
-                href="portfolio"
-              >
-                <Image
-                  width={15}
-                  height={15}
-                  src="/images/icons/hard drive.svg"
-                  alt=""
-                />
-                <div className="flex gap-1">
-                  <p>Portfolio </p>
-                  <Image
-                    className="-translate-y-1"
-                    width={15}
-                    height={15}
-                    src="/images/icons/arrow right up.svg"
-                  />
-                </div>
-              </Link> */}
-
               <div
                 className={`  gap-[2px] px-2 flex items-center cursor-pointer`}
                 onClick={() => {

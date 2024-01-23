@@ -65,9 +65,7 @@ const Hero = ({ nav, setNav }) => {
               src="/images/icons/linkedin.svg"
               height={20}
               width={20}
-              // fill={true}
               layout="responsive"
-              // objectFit="cover"
               alt="a picture"
               objectFit="cover"
             />

@@ -178,8 +178,8 @@ const Testimonial = () => {
               <div>
                 <p>Abdulahi O. FALADE </p>
                 <p className="text-xs italic">
-                  Data Analyst MS Excel |Google Sheet Power BI|SQL |TABLEAU
-                  |Content
+                  Data Analyst MS Excel |Google
+                  <br /> Sheet Power BI|SQL |TABLEAU |Content
                 </p>
                 <div className="text-[#bb2c08f5]">
                   &#9733; &#9733; &#9733; &#9733; &#9733;
