@@ -8,14 +8,14 @@ const page = () => {
   const items = [
     {
       header:
-        "Creative Writing Fiction Story | Imaginative writing | Artful Writing",
+        "Creative Writing Fiction Story | Imaginative writing",
       linker:
         "https://drive.google.com/drive/folders/1aT7y-aaeEguTvdAk5awnfHCsMsjCjYWw",
       image: "/images/image (1).jpg",
       id: 1,
     },
     {
-      header: "Social Media Contentve | Engaging Posts | Imaginative Posts",
+      header: "Social Media Content | Engaging Posts | Imaginative Posts",
       linker:
         "https://drive.google.com/drive/folders/1-HMDkjP4tSHN1qkKLF-wy2v-4hk0Uuzg",
       image: "/images/image (6).jpg",
