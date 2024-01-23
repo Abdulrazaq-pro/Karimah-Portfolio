@@ -46,15 +46,14 @@ const page = () => {
     }
     return (
       <div className="portfolio">
-        
         <div className="relative grid grid-cols-3 md:grid-cols-2  gap-4 md:w-[70%] m-auto p-4 border-[1px] border-neutral-300 rounded-lg ">
-        <Image
-              className="absolute top-[3px] right-[3px]"
-              src="/images/icons/arrow copy.svg"
-              height={17}
-              width={17}
-              alt=""
-            />
+          <Image
+            className="absolute top-[3px] right-[3px]"
+            src="/images/icons/arrow copy.svg"
+            height={17}
+            width={17}
+            alt=""
+          />
           <Link
             className="rounded-lg col-span-1 overflow-hidden relative "
             href={linker}
@@ -86,12 +85,11 @@ const page = () => {
   };
   return (
     <div className="px-4 py-5">
-
       <p className="text-lg mb-3">
         <Link href="/">
-          <span>Home</span>
+          <span className="underline text-blue-900">Home</span>
         </Link>
-        &gt; <span className="text-sec">Portfolio</span>
+        <span> &gt; </span><span className="text-sec italic">Portfolio</span>
       </p>
       <div className="">
         <Link
