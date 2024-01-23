@@ -154,6 +154,39 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
+          <div>
+            <div className="flex justify-center">
+              <Image
+                className="rounded-full"
+                src="/images/6.jpg"
+                height={55}
+                width={55}
+                alt=""
+              />
+            </div>
+            <p className="my-2 text-neutral-600">
+              Marketing Karimah was patient enough to listen to my journey, jot
+              necessary points, ask questions to get clarity on how she could be
+              of help to build my personal brand and to create business
+              structure. Besides, she speaks with motivation and encouragement
+              on how to achieve the goal through her personal story. Karimah
+              shared summary of the consulting meeting and action plan, together
+              with LinkedIn content calender. The service rendered was
+              satisfactory and worth more than the commitment fee.
+            </p>
+            <div className="flex justify-end text-left mt-2 mr-3">
+              <div>
+                <p>Abdulahi O. FALADE </p>
+                <p className="text-xs italic">
+                  Data Analyst MS Excel |Google Sheet Power BI|SQL |TABLEAU
+                  |Content
+                </p>
+                <div className="text-[#bb2c08f5]">
+                  &#9733; &#9733; &#9733; &#9733; &#9733;
+                </div>
+              </div>
+            </div>
+          </div>
           {/* <div className="">
             <div className="flex justify-center">
               <Image
@@ -192,11 +225,11 @@ const Testimonial = () => {
               />
             </div>
             <p className="my-2 text-neutral-600">
-              Karimah helped me to fix my bio at a time I wasn&lsquo;t so clear on how
-              to arrange it and so far have been able to structure it properly.
-              Thank you so much Karima, Thank you Received 1st Worried about
-              that child&lsquo;s uncontrollable screen time? | Smartphone Productivity
-              Club got you!
+              Karimah helped me to fix my bio at a time I wasn&lsquo;t so clear
+              on how to arrange it and so far have been able to structure it
+              properly. Thank you so much Karima, Thank you Received 1st Worried
+              about that child&lsquo;s uncontrollable screen time? | Smartphone
+              Productivity Club got you!
             </p>
             <div className="flex justify-end text-left mt-2 mr-3">
               <div>

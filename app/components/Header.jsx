@@ -27,7 +27,6 @@ const Header = ({
             Rimah
           </span>
         </a>
-        <button onClick={() => copyText("i jbvhb")}>copy</button>
         <div className="flex items-center gap-1 -mt-1">
           <div className="h-[6px] w-8 bg-primary"></div>
           <p className="text-[7px]">portfolio</p>
