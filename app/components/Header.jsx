@@ -130,7 +130,7 @@ const Header = ({
             <p className="text-sm">Send Mail</p>
           </div> */}
 
-          <Link className={` bg-neutral-100 rounded-full px-4 py-2 flex gap-1 ${nav && "opacity-50"}`} href="portfolio">
+          <Link className={`bg-neutral-100 rounded-full px-4 py-2 flex gap-1 ${nav && "opacity-50"}`} href="portfolio">
             <Image
               width={15}
               height={15}
@@ -138,7 +138,7 @@ const Header = ({
               alt=""
             />
             <div className="flex gap-1">
-              <p>Portfolio </p>
+              <p className="text-sm">Portfolio </p>
               <Image
                 className="-translate-y-1"
                 width={15}
@@ -210,7 +210,7 @@ const Header = ({
                   src="/images/icons/Telegram copy.svg"
                   alt=""
                 />
-                <p className="text-sm">Send Mail</p>
+                <p className="">Send Mail</p>
               </div>
             </li>
             <li className="border-t-[1px] bg-[#181818]"></li>
