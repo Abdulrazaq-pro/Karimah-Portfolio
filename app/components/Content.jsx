@@ -356,7 +356,7 @@ const Content = () => {
           bloom!
           <div className="">
             <Link href="https://calendly.com/karimahclaritysession/30min">
-              <button className="shadow-lg mt-4 px-4 py-2 rounded-full bg-sec text-neutral-100  m-auto max-sm:text-[12px]">
+              <button className="shadow-lg mt-4 px-4 py-2 rounded-full bg-sec text-neutral-100 m-auto max-sm:text-[12px]">
                 Book a call
               </button>
             </Link>
