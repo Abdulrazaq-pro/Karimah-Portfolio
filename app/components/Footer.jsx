@@ -34,7 +34,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="space-y-1">
-          <p className="text-white"> Major Tech Skills</p>
+          <p className="text-white"> Major Skills</p>
           <ul className="space-y-1">
             <li>
               <Link href="/">Creative writing</Link>
