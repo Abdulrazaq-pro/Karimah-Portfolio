@@ -78,10 +78,10 @@ const Content = () => {
               business Get you more followers right here on Linkedin If this
               sounds like you, the action is with you, take it now!
             </p>
-            <div className=" mt-2">
+            <div className=" mt-4">
               <Link
                 href="https://calendly.com/karimahclaritysession/30min"
-                className="px-4 py-2 my-2 bg-gradient-to-r rounded-full from-sec to-primary text-[#f1f1f1]"
+                className="px-4 py-2 my-2 bg-gradient-to-r rounded-full from-sec to-primary text-sm text-[#f1f1f1] "
               >
                 Book a call now
               </Link>
@@ -94,7 +94,7 @@ const Content = () => {
   const Check = () => {
     return (
       <div className="text-gray-600 body-font">
-        <div className="container px-5 py-12 mx-auto">
+        <div className="container px-5 py-7 mx-auto">
           <div className="text-center mb-4">
             <h1 className="sm:text-3xl text-2xl text-center title-font text-gray-900 mb-4 font-semibold">
               My Skillset
