@@ -45,7 +45,9 @@ const page = () => {
       setCopy("copied");
     }
     return (
-      <div className="portfolio relative">
+      <div className="portfolio">
+        
+        <div className="relative grid grid-cols-3 md:grid-cols-2  gap-4 md:w-[70%] m-auto p-4 border-[1px] border-neutral-300 rounded-lg ">
         <Image
               className="absolute top-[3px] right-[3px]"
               src="/images/icons/arrow copy.svg"
@@ -53,7 +55,6 @@ const page = () => {
               width={17}
               alt=""
             />
-        <div className="grid grid-cols-3 md:grid-cols-2  gap-4 md:w-[70%] m-auto p-4 border-[1px] border-neutral-300 rounded-lg ">
           <Link
             className="rounded-lg col-span-1 overflow-hidden relative "
             href={linker}
