@@ -87,7 +87,7 @@ const page = () => {
   return (
     <div className="px-4 py-5">
 
-      <p className="text-lg">
+      <p className="text-lg mb-3">
         <Link href="/">
           <span>Home</span>
         </Link>
@@ -99,7 +99,7 @@ const page = () => {
           className=""
         >
           <div className="text-[white] flex gap-2 bg-sec py-5 px-4 rounded-md">
-            <p>PUBLISHED WORK</p>
+            <p>PUBLISHED WORK I WORKED ON</p>
 
             <Image
               className="-translate-y-1"
