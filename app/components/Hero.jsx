@@ -7,7 +7,7 @@ const Hero = ({ nav, setNav }) => {
     <div className={`text-center max-sm:text-left ${nav ? "opacity-50" : ""}`}>
       <div className="py-8 m-auto space-y-5">
         <p className="md:text-6xl text-3xl px-4 font-semibold bg-gradient-to-br bg-clip-text text-transparent  from-[black] via-[#9c0c0c] to-[black] py-2">
-          Elevate your social presence with top notch writing services
+          Lift up your social presence with top notch writing services
         </p>
         <p className="px-4 m-auto text-neutral-600">
           If writing the content could turn your personal and business brand
